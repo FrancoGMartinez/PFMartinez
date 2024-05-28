@@ -15,7 +15,7 @@ main{
 section p{
     font-family: "Montserrat", sans-serif;
     font-style: normal;
-    text-align:justify;
+    text-align:start;
 }
 .fondoNavbar{
     background-color: black;
@@ -115,6 +115,7 @@ li a{
 section p{
     margin: 20px;
     font-size: 20px;
+    text-align: justify;
 }
 
 .seccionJugadores{
@@ -176,7 +177,7 @@ header ion-icon{
 }
 
 .seccionContacto img{
-    width: 350px;
+    width: 50%;
     padding-top: 10px;
 }
 
@@ -199,7 +200,7 @@ footer ion-icon{
 }
 footer p{
     font-size: 20px;
-    padding-left: 10px;
+    padding-left: 20px;
 }
 footer img{
     width: 60px;
@@ -219,9 +220,6 @@ footer img{
     width: 50%;
 }
 @media(max-width: 590px){
-    header{
-        font-size: 10px;
-    }
     section iframe{
         width: 300px;
         height: 215px;
@@ -238,7 +236,7 @@ footer img{
         flex-direction: column;
     }
     .seccionContacto img{
-        width: 80%;
+        width: 40%;
     }
     footer{
         flex-direction: column;
