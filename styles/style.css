@@ -1,3 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+}
+main{
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+}
+section p{
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+}
 .fondoNavbar{
     background-color: black;
     color: white;
@@ -5,7 +23,6 @@
 main{
     color: rgb(0, 0, 0);
 }
-
 header img{
     height: 80%;
     width: 50px;
@@ -13,6 +30,10 @@ header img{
 h1 {
     padding-right: 30px;
 }
+a:hover {
+    color: rgb(141, 137, 137);
+    cursor: pointer;
+  }
 .colorNavList{
     color: white;
     padding: 10px;
@@ -220,6 +241,7 @@ footer img{
         
     }
     footer img{
+        margin-top: 10px;
         margin-right: 0px;
     }
     footer p{
@@ -227,8 +249,11 @@ footer img{
         padding-left: 70px;
         padding-top: 10px;
     }
+    footer ion-icon{
+        padding-top: 2px ;
+    }
     .seccionHistoria p{
-        font-size: 13px;
+        font-size: 18px;
     }
     .seccionHistoria img{
         width: 100%;
