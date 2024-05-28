@@ -254,6 +254,9 @@ footer img{
     footer ion-icon{
         padding-top: 2px ;
     }
+    section p{
+        text-align: start;
+    }
     .seccionHistoria p{
         font-size: 18px;
     }
