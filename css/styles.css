@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.buttons, .seccionContacto, .seccionTitulos, footer ul, footer, header ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.seccionJugadores, .estadioSeccion, .seccionHistoria, .seccionIndex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
+header h1 {
+  padding-right: 30px;
+}
+header ul {
+  color: rgb(255, 251, 251);
+  list-style-type: none;
+}
+header ul li a {
+  color: rgb(255, 251, 251);
+  text-decoration: none;
+  margin: 5px;
+  font-size: 15px;
+}
+header ul li a:hover {
+  color: rgb(141, 137, 137);
+  cursor: pointer;
+}
+header img {
+  height: 80%;
+  width: 50px;
+}
+header .colorNavList {
+  color: rgb(255, 251, 251);
+  padding: 10px;
+  font-size: 20px;
+}
+header .colorButtonHeader {
+  background-color: rgb(138, 20, 20);
+  border-color: white;
+}
+header .fondoNavbar {
+  background-color: rgb(7, 3, 3);
+  color: white;
+}
+header ion-icon {
+  color: rgb(177, 34, 34);
+  width: 40px;
+  height: 40px;
+}
+
+footer {
+  color: rgb(116, 112, 112);
+  background-color: rgb(7, 3, 3);
+  align-items: center;
+  justify-content: space-between;
+  font-size: 15px;
+  position: unset;
+}
+footer ul {
+  list-style-type: none;
+}
+footer ion-icon {
+  color: rgb(116, 112, 112);
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  padding-top: 20px;
+}
+footer p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  padding-left: 20px;
+}
+footer img {
+  width: 60px;
+  height: 60px;
+  margin-right: 30px;
+}
+
+main h2 {
+  color: rgb(167, 18, 18);
+  background-color: rgb(208, 201, 201);
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+main h2 img {
+  width: 100%;
+}
+main section p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  text-align: start;
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.seccionIndex {
+  background: linear-gradient(180deg, rgb(121, 118, 118) 66%, rgb(255, 255, 255) 86%, rgb(247, 248, 248) 100%);
+}
+.seccionIndex .imagenIndex {
+  width: 100%;
+}
+.seccionIndex p {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.seccionHistoria {
+  margin-top: 0px;
+  justify-content: center;
+  background: rgb(208, 201, 201);
+  background: linear-gradient(180deg, rgb(208, 201, 201) 0%, rgb(255, 245, 245) 9%, rgb(255, 255, 255) 89%, rgb(208, 201, 201) 100%);
+}
+.seccionHistoria ion-icon {
+  color: rgb(177, 34, 34);
+  width: 60px;
+  height: 60px;
+}
+.seccionHistoria p {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.seccionHistoria .tamCarrusel {
+  width: 50%;
+}
+
+.estadioSeccion {
+  align-items: center;
+  margin-bottom: 10px;
+  background: rgb(18, 2, 2);
+  background: linear-gradient(180deg, rgb(18, 2, 2) 6%, rgb(156, 149, 149) 12%, rgb(253, 254, 255) 82%);
+}
+.estadioSeccion .bannerEstadio {
+  width: 90%;
+}
+.estadioSeccion p {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.seccionJugadores div ion-icon {
+  color: rgb(177, 34, 34);
+  width: 60px;
+  height: 60px;
+}
+.seccionJugadores .tamCarrusel {
+  width: 50%;
+}
+
+.seccionTitulos {
+  align-items: center;
+  justify-content: space-evenly;
+  background: rgb(208, 201, 201);
+  background: linear-gradient(180deg, rgb(208, 201, 201) 0%, rgb(255, 245, 245) 9%, rgb(255, 255, 255) 89%, rgb(208, 201, 201) 100%);
+}
+.seccionTitulos img {
+  width: 40%;
+  padding: 10px;
+}
+.seccionTitulos .colorCard {
+  background-color: rgb(161, 24, 24);
+  color: white;
+  padding: 2px;
+  margin: 2px;
+  text-align: start;
+  width: 18rem;
+}
+
+.seccionContacto {
+  justify-content: center;
+  padding: 20px;
+  margin: 0px;
+  background: rgb(24, 1, 1);
+  background: linear-gradient(180deg, rgb(87, 7, 7) 35%, rgb(97, 96, 96) 67%, rgb(248, 147, 147) 95%, white 100%);
+  color: rgb(255, 255, 255);
+}
+
+.botonForm {
+  background-color: rgb(172, 22, 22);
+  color: white;
+  border-radius: 0.375rem;
+  padding: 3px;
+  margin: 5px;
+  border: solid rgb(172, 22, 22);
+}
+
+.buttons {
+  justify-content: center;
+}
+
+@media (max-width: 590px) {
+  section iframe {
+    width: 300px;
+    height: 215px;
+  }
+  .estadioSeccion p {
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .seccionIndex {
+    background-image: linear-gradient(to bottom, rgb(75, 75, 75), white);
+  }
+  .seccionIndex img {
+    height: 180px;
+  }
+  .seccionIndex p {
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .seccionHistoria p {
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .seccionHistoria img {
+    width: 100%;
+  }
+  .seccionHistoria .tamCarrusel {
+    width: 90%;
+  }
+  .seccionJugadores .tamCarrusel {
+    width: 90%;
+  }
+  .seccionTitulos {
+    flex-direction: column;
+  }
+  .seccionTitulos img {
+    width: 95%;
+    height: 600px;
+    padding: 10px;
+  }
+  .seccionContacto {
+    flex-direction: column;
+  }
+  .seccionContacto img {
+    width: 40%;
+  }
+  footer {
+    flex-direction: column;
+  }
+  footer img {
+    margin-top: 10px;
+    margin-right: 0px;
+  }
+  footer p {
+    font-size: 20px;
+    padding-left: 50px;
+    padding-top: 10px;
+  }
+  footer ion-icon {
+    padding-top: 2px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

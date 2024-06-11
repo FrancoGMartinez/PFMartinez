@@ -1,0 +1,13 @@
+$fuente: "Montserrat", sans-serif;
+$colorPrimario: rgb(7, 3, 3);
+$colorSecundario: rgb(255, 251, 251);
+$colorTitulos:rgb(167, 18, 18);
+%flexrow{
+    display: flex;
+    flex-direction: row;
+}
+%flexcolumncenter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

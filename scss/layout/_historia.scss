@@ -1,0 +1,19 @@
+.seccionHistoria{
+    margin-top: 0px;
+    @extend%flexcolumncenter;
+    justify-content: center;
+    ion-icon{
+        color: rgb(177, 34, 34);
+        width: 60px;
+        height: 60px;
+    }
+    p{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .tamCarrusel{
+        width: 50%;
+    }
+    background: rgb(208,201,201);
+    background: linear-gradient(180deg, rgba(208,201,201,1) 0%, rgba(255,245,245,1) 9%, rgb(255, 255, 255) 89%, rgba(208,201,201,1) 100%);
+}

@@ -1,0 +1,74 @@
+@media(max-width: 590px){
+    section {
+        iframe{
+            width: 300px;
+            height: 215px;
+        }
+    }
+    .estadioSeccion{
+        p{
+            font-size: 18px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+    }
+    .seccionIndex{
+        img {
+            height: 180px;
+        }
+        p{
+            font-size: 18px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        background-image: linear-gradient(to bottom, rgb(75, 75, 75), white);
+    }
+    .seccionHistoria{
+        p{
+            font-size: 18px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        img{
+            width: 100%;
+        } 
+        .tamCarrusel{
+            width: 90%;
+        }
+    }
+    .seccionJugadores{
+        .tamCarrusel{
+            width: 90%;
+        }
+    }
+    .seccionTitulos{
+        flex-direction: column;
+        img{
+            width: 95%;
+            height: 600px;
+            padding: 10px;
+        }
+    }
+    .seccionContacto{
+        flex-direction:column;
+        img{
+            width: 40%;
+        }
+    }
+
+    footer{
+        flex-direction: column;
+        img{
+            margin-top: 10px;
+            margin-right: 0px;
+        }
+        p{
+            font-size: 20px;
+            padding-left: 50px;
+            padding-top: 10px;
+        }
+        ion-icon{
+            padding-top: 2px ;
+        }
+    }
+}

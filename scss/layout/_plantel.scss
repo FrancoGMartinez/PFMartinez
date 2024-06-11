@@ -1,0 +1,13 @@
+.seccionJugadores{
+    @extend%flexcolumncenter;
+    div{
+        ion-icon{
+            color: rgb(177, 34, 34);
+            width: 60px;
+            height: 60px;
+        }
+    }
+    .tamCarrusel{
+        width: 50%;
+    }
+}

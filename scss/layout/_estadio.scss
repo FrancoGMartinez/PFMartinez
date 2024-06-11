@@ -1,0 +1,15 @@
+.estadioSeccion{
+    @extend%flexcolumncenter;
+    align-items: center;
+    margin-bottom: 10px;
+    background: rgb(18,2,2);
+    background: linear-gradient(180deg, rgba(18,2,2,1) 6%, rgba(156,149,149,1) 12%, rgba(253,254,255,1) 82%);
+    .bannerEstadio{
+        width: 90%;
+    }
+    p{
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+}

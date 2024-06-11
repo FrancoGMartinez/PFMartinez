@@ -1,0 +1,19 @@
+.seccionTitulos{
+    @extend%flexrow;
+    align-items: center;
+    justify-content: space-evenly;
+    background: rgb(208,201,201);
+    background: linear-gradient(180deg, rgba(208,201,201,1) 0%, rgba(255,245,245,1) 9%, rgb(255, 255, 255) 89%, rgba(208,201,201,1) 100%);
+    img{
+        width: 40%;
+        padding: 10px;
+    }
+    .colorCard{
+        background-color: rgb(161, 24, 24);
+        color: white;
+        padding: 2px;
+        margin: 2px;
+        text-align: start;
+        width: 18rem;
+    }
+}
