@@ -51,7 +51,7 @@
                     <div>
                         <fieldset>
                             <legend>Nombre y Apellido</legend>
-                         <input type="text" name="nombreyapellido" id="nombreyapellido" placeholder="Nombre y Apellido" required>
+                         <input type="text" class="bordesForm" name="nombreyapellido" id="nombreyapellido" placeholder="Nombre y Apellido" required>
                         </fieldset>
                         <fieldset>
                          <legend>Email</legend>
@@ -64,13 +64,21 @@
                     </div>
                     <div>
                         <fieldset>
-                            <legend>Genero</legend>
-                            <div>Hombre</div>
-                            <input type="radio" name="genero" value="hombre" id="" required>
-                            <div>Mujer</div>
-                            <input type="radio" name="genero" value="mujer" id="" required>
-                            <div>No binario</div>
-                            <input type="radio" name="genero" value="no binario" id="" required>
+                            <div>
+                                <legend>Genero</legend>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                <label class="form-check-label" for="inlineRadio1">Masculino</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                <label class="form-check-label" for="inlineRadio2">Femenino</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                                <label class="form-check-label" for="inlineRadio3">No binario</label>
+                              </div>
                         </fieldset>
                         <fieldset>
                             <legend>Tipo de Socio</legend>
